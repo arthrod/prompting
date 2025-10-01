@@ -31,7 +31,7 @@ repos:
       - id: pyupgrade
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.33.2
+    rev: 0.34.0
     hooks:
       - id: check-renovate
         args: ["--verbose"]
