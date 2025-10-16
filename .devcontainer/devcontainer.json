@@ -2,7 +2,7 @@
     // DevContainer configuration for Legal LLM Prompting Techniques application
     // Maintained by Arthur Souza Rodrigues (arthrod@umich.edu)
     "name": "Legal Prompting Techniques App",
-    "image": "mcr.microsoft.com/devcontainers/python:3.12",
+    "image": "mcr.microsoft.com/devcontainers/python:3.14",
     "hostRequirements": {
         "cpus": 4
     },
