@@ -48,3 +48,6 @@ build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
 packages = ["prompting"]
+
+[tool.deptry.package_module_name_map]
+python-dotenv = ["dotenv"]
