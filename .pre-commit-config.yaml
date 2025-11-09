@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: end-of-file-fixer
       - id: trailing-whitespace
@@ -26,12 +26,12 @@ repos:
   #    - id: typos
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.20.0
+    rev: v3.21.0
     hooks:
       - id: pyupgrade
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.33.2
+    rev: 0.34.1
     hooks:
       - id: check-renovate
         args: ["--verbose"]
