@@ -25,7 +25,7 @@ jobs:
     needs: tagging
     steps:
       - name: Checkout [${{ github.repository }}]
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: "Build and publish the Container"
         uses: tschm/cradle/actions/docker@v0.3.06
